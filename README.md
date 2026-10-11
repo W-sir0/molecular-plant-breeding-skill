@@ -2,7 +2,20 @@
 
 [![Tests](https://github.com/W-sir0/molecular-plant-breeding-skill/actions/workflows/tests.yml/badge.svg)](https://github.com/W-sir0/molecular-plant-breeding-skill/actions/workflows/tests.yml)
 
-把徐云碧《分子植物育种》作为**本地阅读资料**，让 AI 根据具体书页讲解概念、比较方法、安排复习并出题。项目包含原创学习工作流程和 PDF 定位工具，不包含教材正文、扫描图或全文 OCR。
+把徐云碧《分子植物育种》作为**本地阅读资料**，让 AI 根据具体书页讲解概念、比较方法、安排复习并出题。代码仓库包含原创学习工作流程和 PDF 定位工具；配套 PDF 单独放在 Release 附件区，源码中不嵌入教材正文、扫描图或全文 OCR。
+
+## PDF 下载
+
+- [下载《分子植物育种》PDF](https://github.com/W-sir0/molecular-plant-breeding-skill/releases/download/v1.0.0/molecular-plant-breeding.pdf)
+- [查看 v1.0.0 发布说明](https://github.com/W-sir0/molecular-plant-breeding-skill/releases/tag/v1.0.0)
+
+文件大小：245,299,002 字节（约 234 MiB）。PDF 保持原文件内容。
+
+```text
+SHA-256: a7b949f1c630634178fa941cfffe4a8d04b74e516072073d1e7156e616bf3295
+```
+
+下载后将文件作为本地资料交给 Skill，或放入 `.local/` 目录使用。
 
 ## 能做什么
 
@@ -57,7 +70,7 @@ python skills/study-molecular-plant-breeding/scripts/book.py search .local/mas.j
 
 参考版本原著为 2010 年出版，中译本为 2014 年出版。它适合学习相关基础，涉及软件、数据库、法规或近期技术时应另查当前一手来源。
 
-仓库的 MIT 许可证仅覆盖本项目原创代码和文档，不授予原书权利。未取得原书公开再分发授权，仓库不分发整本 PDF，也不提供未授权下载链接。书籍、OCR 文本、截图和本地路径配置应保存在 `.local/` 等忽略目录中；`.gitignore` 不会移除已经提交的文件。
+仓库的 MIT 许可证仅覆盖本项目原创代码和文档，不授予原书权利。配套 PDF 由项目维护者确认已取得公开再分发授权后，作为 Release 附件发布。教材 PDF 的版权仍归原权利人所有，MIT 不适用于教材；本项目不授予超出权利人授权范围的使用权。书籍、OCR 文本、截图和本地路径配置应保存在 `.local/` 等忽略目录中；`.gitignore` 不会移除已经提交的文件。
 
 ## 验证
 
