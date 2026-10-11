@@ -1,0 +1,4 @@
+interface:
+  display_name: "分子植物育种学习"
+  short_description: "结合本地教材进行页码检索、概念讲解、方法比较、复习计划与自测反馈"
+  default_prompt: "使用 $study-molecular-plant-breeding，根据我提供的教材页讲解概念、标注来源，并用原创题检查我的理解。"

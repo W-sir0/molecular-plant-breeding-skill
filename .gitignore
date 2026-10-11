@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.local/
+private/
+books/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.ocr.json
+.DS_Store
+local-source.json
